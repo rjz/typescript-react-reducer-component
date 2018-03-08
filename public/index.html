@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link rel="stylesheet" href="https://unpkg.com/zakalwe/zakalwe.min.css" />
+    <style type="text/css">
+.demo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  border: 1px solid #231f20;
+  border-radius: 3px;
+  background: #fff;
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+  transition: all linear 0.2s;
+  width: 128px;
+  text-align: center;
+}
+
+button:focus {
+  outline:none;
+}
+
+button:active {
+  background-color:#1982d1;
+  border:1px solid #1982d1;
+  color:#fff;
+  transition: all linear 0.2s;
+}
+
+footer {
+  position:fixed;
+  bottom: 0;
+  left: 0;
+  right:0;
+}
+</style>
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div class="demo" id="root"></div>
+  <footer class="dark">
+    <section class="container copyright">
+      Another unrepentant production from
+      <a href="https://rjzaworski.com">rj zaworski</a>
+      &middot; <a href="https://github.com/rjz/typescript-react-reducer-component">Github</a>
+      <!-- :^) -->
+    </section>
+  </footer>
+
+  </body>
+</html>
